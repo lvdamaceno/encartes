@@ -5,11 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <title>Encartes Promocionais</title>
   </head>
   <body>
     <div class="wrapper">
-      <img src="./assets/encarte1.png" alt="" />
+      <!-- <img src="./assets/encarte1.png" alt="" /> -->
+
+      <div class="content" style="max-width: 800px">
+        <div class="slide">
+          <img class="mySlides" src="./assets/encarte1.png" />
+          <img class="mySlides" src="./assets/encarte2.png" />
+          <img class="mySlides" src="./assets/encarte3.png" />
+          <img class="mySlides" src="./assets/encarte4.png" />
+          <!-- CONTACT -->
+          <a
+            href="https://api.whatsapp.com/send/?phone=%2B559132224751&text=Olá%21+Gostei+do+anúncio+e+gostaria+de+saber+mais&type=phone_number&app_absent=0"
+            target="_blank"
+          >
+            <div class="contact"></div>
+          </a>
+        </div>
+        <!-- ARROWS -->
+        <div class="arrows">
+          <div class="arrow" onclick="plusDivs(-1)">
+            <i class="ph ph-caret-left"></i>
+          </div>
+          <div class="arrow right" onclick="plusDivs(1)">
+            <i class="ph ph-caret-right"></i>
+          </div>
+        </div>
+      </div>
+      <!-- DOTS -->
+      <div class="dots">
+        <span class="badge demo" onclick="currentDiv(1)"></span>
+        <span class="badge demo" onclick="currentDiv(2)"></span>
+        <span class="badge demo" onclick="currentDiv(3)"></span>
+        <span class="badge demo" onclick="currentDiv(4)"></span>
+      </div>
     </div>
     <script src="./script.js"></script>
   </body>
