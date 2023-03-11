@@ -12,4 +12,17 @@
 
 body {
   font-size: 1.6rem;
+  display: grid;
+  align-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  margin: auto;
+}
+
+img {
+  height: 95vh;
+  width: 95vw;
+  object-fit: contain;
 }
