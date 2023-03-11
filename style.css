@@ -91,6 +91,10 @@ img {
 
 @media (max-width: 76.7rem) {
   /* … */
+  body {
+    display: grid;
+    height: 90vh;
+  }
   .contact {
     height: 5rem;
     bottom: 7rem;
